@@ -1,0 +1,28 @@
+{
+    "amdSleepFix": false,
+    "autorun": {
+        "DEFAULT_SCRIPT": {
+            "parameters": {
+                "param1": "value1",
+                "param2": "55"
+            },
+            "script": "",
+            "world": -2
+        },
+        "Zezima": {
+            "parameters": {
+                "param1": "value1",
+                "param2": "55"
+            },
+            "script": "Skilling\\0-Loop.lua",
+            "world": -2
+        }
+    },
+    "hotkeys": {
+        "hide": "0x24",
+        "render": "0x2D"
+    },
+    "includeDevScripts": false,
+    "lobbyToGame": false,
+    "renameTitle": false
+}
