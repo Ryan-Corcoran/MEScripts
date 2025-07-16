@@ -41,7 +41,7 @@ local function bank()
     end
 
     if chosenBank.Name == "Bank boat" then
-        API.DoAction_Object_Direct(0x33, API.OFF_ACT_GeneralObject_route3, chosenBank)
+        API.DoAction_Object_Direct(0x33, API.OFF_ACT_GeneralObject_route4, chosenBank)
     else
         API.DoAction_Object_Direct(0x29, API.OFF_ACT_GeneralObject_route2, chosenBank)
     end
